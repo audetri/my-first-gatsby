@@ -12,11 +12,19 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "upgrade-interactive": "npm-check --update"
   },
   "dependencies": {
     "gatsby": "^4.2.0",
+    "gatsby-plugin-image": "^2.2.0",
+    "gatsby-plugin-sharp": "^4.2.0",
+    "gatsby-source-filesystem": "^4.2.0",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "npm-check": "^5.9.2"
   }
 }

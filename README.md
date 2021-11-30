@@ -52,3 +52,24 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+
+5. **Gatsby info**
+ https://www.gatsbyjs.com/docs/gatsby-cli/
+System:
+    OS: Linux 4.15 Linux Mint 19.1 (Tessa)
+    CPU: (2) x64 Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+    Shell: 4.4.20 - /bin/bash
+  Binaries:
+    Node: 16.13.0 - /usr/bin/node
+    Yarn: 1.22.15 - /usr/bin/yarn
+    npm: 8.1.4 - /usr/bin/npm
+  Languages:
+    Python: 2.7.17 - /usr/bin/python
+  Browsers:
+    Firefox: 94.0
+  npmPackages:
+    gatsby: ^4.2.0 => 2.32.13
+  npmGlobalPackages:
+    gatsby-cli: 4.2.0
+
