@@ -1,28 +1,19 @@
 {
-  "name": "my-first-gatsby-site",
-  "version": "1.0.0",
-  "private": true,
-  "description": "My first Gatsby Site",
-  "author": "audetri",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "upgrade-interactive": "npm-check --update"
-  },
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "core-js": "^3.19.2",
     "gatsby": "^4.2.0",
     "gatsby-plugin-image": "^2.2.0",
+    "gatsby-plugin-mdx": "^3.2.0",
     "gatsby-plugin-sharp": "^4.2.0",
     "gatsby-source-filesystem": "^4.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "upgrade-interactive": "npm-check --update"
   },
   "devDependencies": {
     "npm-check": "^5.9.2"
